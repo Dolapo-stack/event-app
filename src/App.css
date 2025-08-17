@@ -19,8 +19,11 @@ header a:hover,
 .event_details {
   background-color: #ed3237;
   color: #ffff;
-  padding: 0.5rem 1.3rem;
-  border-radius: 5px;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+}
+.event_details {
+  font-size: 18px;
 }
 
 .next_event {
@@ -31,10 +34,6 @@ header a:hover,
 }
 
 .event_list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(103, 100, 100);
   color: #ffff;
   width: 1000px;
@@ -48,16 +47,31 @@ header a:hover,
   font-weight: bold;
   font-family: "Inter", sans-serif;
   font-weight: 600;
+  text-align: center;
 }
 
 .event {
   background-color: #ffff;
   color: black;
-  margin-bottom: 0.5rem;
-  padding: 0.5rem 1.3rem;
+  margin: 0 1.5rem 1rem 1.5rem;
+  padding: 1rem 0.5rem;
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 3rem;
-  /* width: 850px; */
+}
+
+.event > div {
+  flex: 1; /* makes each child expand equally */
+  text-align: center; /* optional: centers text inside each column */
+}
+
+.details_button {
+  padding: 0.6rem 1.2rem;
+  background-color: #ed3237;
+  color: #ffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 1rem;
 }

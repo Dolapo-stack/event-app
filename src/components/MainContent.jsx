@@ -13,23 +13,35 @@ const MainContent = () => {
         <h2>Upcoming Events</h2>
         <div className="event">
           <div>January 26 - January 30 2025</div>
-          <div>Methathesis</div>
+          <div>METHATHESIS</div>
           <div>
-            <input type="button" value="Click for details" />
+            <input
+              type="button"
+              value="Click for details"
+              className="details_button"
+            />
           </div>
         </div>
         <div className="event">
           <div>January 26 - January 30 2025</div>
-          <div>Methathesis</div>
+          <div>METHATHESIS</div>
           <div>
-            <input type="button" value="Click for details" />
+            <input
+              type="button"
+              value="Click for details"
+              className="details_button"
+            />
           </div>
         </div>
         <div className="event">
           <div>January 26 - January 30 2025</div>
-          <div>Methathesis</div>
+          <div>METHATHESIS</div>
           <div>
-            <input type="button" value="Click for details" />
+            <input
+              type="button"
+              value="Click for details"
+              className="details_button"
+            />
           </div>
         </div>
       </section>

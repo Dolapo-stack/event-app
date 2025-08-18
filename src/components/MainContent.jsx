@@ -1,3 +1,5 @@
+import EventCard from "./EventCard";
+
 const MainContent = () => {
   return (
     <main>
@@ -11,39 +13,7 @@ const MainContent = () => {
 
       <section className="event_list">
         <h2>Upcoming Events</h2>
-        <div className="event">
-          <div>January 26 - January 30 2025</div>
-          <div>METHATHESIS</div>
-          <div>
-            <input
-              type="button"
-              value="Click for details"
-              className="details_button"
-            />
-          </div>
-        </div>
-        <div className="event">
-          <div>January 26 - January 30 2025</div>
-          <div>METHATHESIS</div>
-          <div>
-            <input
-              type="button"
-              value="Click for details"
-              className="details_button"
-            />
-          </div>
-        </div>
-        <div className="event">
-          <div>January 26 - January 30 2025</div>
-          <div>METHATHESIS</div>
-          <div>
-            <input
-              type="button"
-              value="Click for details"
-              className="details_button"
-            />
-          </div>
-        </div>
+        <EventCard />
       </section>
     </main>
   );

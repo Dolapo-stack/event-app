@@ -7,7 +7,7 @@ const EventCard = () => {
         <div className="event">
           <img src={Methathesis} alt="methathesis" />
           <h2 className="title"> METHATHESIS</h2>
-          <p className="date">20TH-24TH AUGUST, 2025</p>
+          <p className="date">20th-24th August, 2025</p>
           <p className="venue">Trem Int'l Hqtrs, Lagos</p>
           <input
             type="button"
@@ -19,7 +19,7 @@ const EventCard = () => {
         <div className="event">
           <img src={Methathesis} alt="methathesis" />
           <h2 className="title"> METHATHESIS</h2>
-          <p className="date">20TH-24TH AUGUST, 2025</p>
+          <p className="date">20th-24th August, 2025</p>
           <p className="venue">Trem Int'l Hqtrs, Lagos</p>
           <input
             type="button"
@@ -30,7 +30,7 @@ const EventCard = () => {
         <div className="event">
           <img src={Methathesis} alt="methathesis" />
           <h2 className="title"> METHATHESIS</h2>
-          <p className="date">20TH-24TH AUGUST, 2025</p>
+          <p className="date">20th-24th August, 2025</p>
           <p className="venue">Trem Int'l Hqtrs, Lagos</p>
           <input
             type="button"

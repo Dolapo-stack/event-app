@@ -2,7 +2,14 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgb(114, 114, 114);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -14,4 +21,11 @@ h2,
 h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+}
+
+.accent {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.5rem;
+  display: block;
+  margin: 0.5em 0;
 }

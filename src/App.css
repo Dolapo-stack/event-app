@@ -34,11 +34,7 @@ header a:hover,
 }
 
 .event_list {
-  background-color: rgb(103, 100, 100);
-  color: #ffff;
-  width: 1000px;
-  margin: 2rem auto;
-  padding: 2.5rem 0;
+  /* padding: 2.5rem 0; */
 }
 
 .event_list > h2 {
@@ -48,21 +44,30 @@ header a:hover,
   font-family: "Inter", sans-serif;
   font-weight: 600;
   text-align: center;
+  margin-top: 3rem;
+}
+
+.event-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
 }
 
 .event {
-  background-color: #ffff;
   color: black;
-  margin: 0 1.5rem 1rem 1.5rem;
-  padding: 1rem 0.5rem;
   display: flex;
-  align-items: center;
-  gap: 3rem;
+  flex-direction: column;
+  align-items: center; /* center content inside card */
+  width: 300px; /* small card size */
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* card shadow */
 }
 
-.event > div {
-  flex: 1; /* makes each child expand equally */
-  text-align: center; /* optional: centers text inside each column */
+.event img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 .details_button {
@@ -74,9 +79,5 @@ header a:hover,
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   font-size: 1rem;
-}
-
-.event img {
-  width: 250px;
-  border-radius: 0.75rem; /* Rounded corners */
+  margin-bottom: 20px;
 }

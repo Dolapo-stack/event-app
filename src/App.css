@@ -108,3 +108,29 @@ header a:hover,
   margin-bottom: 1.5rem;
   margin-top: 1rem;
 }
+
+.container {
+  border: 1px solid black;
+  width: 600px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.top-layer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.language {
+  margin-top: 14px;
+}
+
+.repository-container {
+  display: flex;
+  gap: 14px;
+}
+
+.container > .description {
+  min-height: 50px;
+}

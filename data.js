@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     image: {
       src: "./src/assets/kingdom_life_world_conference.jpeg",
       alt: "metathesis",
@@ -10,6 +11,7 @@ export default [
   },
 
   {
+    id: 2,
     image: {
       src: "./src/assets/word_celebration.jpeg",
       alt: "world celebration",
@@ -20,6 +22,7 @@ export default [
   },
 
   {
+    id: 3,
     image: {
       src: "./src/assets/kingdom_life_world_conference.jpeg",
       alt: "klwc",

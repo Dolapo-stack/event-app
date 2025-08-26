@@ -4,13 +4,15 @@ const EventCard = (props) => {
       <div className="event">
         <img src={props.image.src} alt={props.image.alt} />
         <h2 className="title"> {props.title}</h2>
-        <p className="date">{props.date}</p>
-        <p className="venue">{props.venue}</p>
-        <input
+        <div>
+          <p className="date">{props.date}</p>
+          <p className="venue">{props.venue}</p>
+        </div>
+        {/* <input
           type="button"
           value="Click for details"
           className="details_button"
-        />
+        /> */}
       </div>
     </>
   );

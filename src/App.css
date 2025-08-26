@@ -57,6 +57,7 @@ header a:hover,
 
 .event-card-list {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
@@ -70,11 +71,10 @@ header a:hover,
 .event {
   color: black;
   display: flex;
-  flex-direction: column;
-  align-items: center; /* center content inside card */
-  width: 300px; /* small card size */
+  /* align-items: center; center content inside card */
+  /* width: 300px; small card size */
   border-radius: 0.75rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* card shadow */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); card shadow */
 }
 
 .event h2 {
@@ -87,7 +87,7 @@ header a:hover,
 }
 
 .event img {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 0.5rem;
 }
 

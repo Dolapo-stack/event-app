@@ -5,6 +5,7 @@ const MainContent = () => {
   const events = eventData.map((event) => {
     return (
       <EventCard
+        key={event.id}
         image={event.image}
         title={event.title}
         date={event.date}

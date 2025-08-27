@@ -26,6 +26,10 @@ header a:hover,
   font-size: 18px;
 }
 
+.event_details:hover {
+  background-color: #c6282d;
+}
+
 .next_event {
   display: flex;
   flex-direction: column;
@@ -42,7 +46,12 @@ header a:hover,
 }
 
 .event_list {
-  /* padding: 2.5rem 0; */
+  padding: 0.1rem 2.5rem;
+  margin: 2rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  /* background-color: #e0e0e0; */
+  /* background-color: #f5f5dc; */
 }
 
 .event_list > h2 {
@@ -64,17 +73,24 @@ header a:hover,
   padding: 1rem;
 }
 
-.event-card-list .date {
-  font-weight: bold;
-}
-
 .event {
+  background-color: #fdf2f2;
   color: black;
   display: flex;
-  /* align-items: center; center content inside card */
-  /* width: 300px; small card size */
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.2rem 1.5rem;
   border-radius: 0.75rem;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); card shadow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card-item {
+  flex: 1;
+  text-align: center;
 }
 
 .event h2 {
@@ -84,16 +100,13 @@ header a:hover,
 
 .event p {
   margin-top: 0.3rem;
+  color: rgb(103, 100, 100);
+  font-size: 0.9rem;
 }
 
 .event img {
   /* width: 100%; */
   border-radius: 0.5rem;
-}
-
-.event .venue {
-  color: rgb(103, 100, 100);
-  font-size: 0.9rem;
 }
 
 .details_button {
@@ -107,6 +120,10 @@ header a:hover,
   font-size: 1rem;
   margin-bottom: 1.5rem;
   margin-top: 1rem;
+}
+
+.details_button:hover {
+  /* background-color: #c6282d; */
 }
 
 .container {

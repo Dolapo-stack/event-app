@@ -2,17 +2,21 @@ const EventCard = (props) => {
   return (
     <>
       <div className="event">
-        <img src={props.image.src} alt={props.image.alt} />
-        <h2 className="title"> {props.title}</h2>
+        <img
+          src={props.image.src}
+          alt={props.image.alt}
+          className="card-item"
+        />
+        <h2 className="title card-item"> {props.title}</h2>
         <div>
-          <p className="date">{props.date}</p>
-          <p className="venue">{props.venue}</p>
+          <p className="venue card-item">
+            <i class="fa-solid fa-location-dot"></i> {props.venue}
+          </p>
+
+          <p className="date card-item">
+            <i class="fa-solid fa-calendar-days"></i> {props.date}
+          </p>
         </div>
-        {/* <input
-          type="button"
-          value="Click for details"
-          className="details_button"
-        /> */}
       </div>
     </>
   );

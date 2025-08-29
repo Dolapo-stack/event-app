@@ -50,6 +50,7 @@ header a:hover,
   margin: 2rem;
   background-color: #ffffff;
   border-radius: 0.75rem;
+  background-color: #fdf2f2;
   /* background-color: #e0e0e0; */
   /* background-color: #f5f5dc; */
 }
@@ -74,7 +75,7 @@ header a:hover,
 }
 
 .event {
-  background-color: #fdf2f2;
+  background-color: #ffffff;
   color: black;
   display: flex;
   align-items: center;
